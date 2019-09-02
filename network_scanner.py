@@ -34,8 +34,6 @@ def scan_network(ip):
 
     for element in answered_list:
 
-        client_dic={"ip": element[1].psrc, "mac":element}
-
         print(element[1].psrc+"\t\t"+element[1].hwsrc)
 
 
