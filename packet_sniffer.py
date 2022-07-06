@@ -4,7 +4,6 @@ import scapy.all as scapy
 from scapy.layers import http
 import optparse as p
 
-#save ozelligi gelecek.
 
 def get_arguments():
     parser=p.OptionParser()
